@@ -1,0 +1,128 @@
+*{
+	font-family:lucida,arial;
+
+}
+.header ul{
+	height: 100px;
+}
+.header ul, .footer ul{
+	/*reset kondisi default dari tag ul*/
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: pink;
+	/*border-radius:15px;*/
+}
+
+.header li, .footer li{
+    float: left;
+}
+.header li a, .footer li a{
+	/*pengaturan tombol navbar*/
+	font-size: 20px;
+    display: block; /*biar yg aktif jadi sekotak*/
+	height: 25px;
+	width: 75px;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+	margin:5px;
+    text-decoration: none;
+}
+
+.header li a:hover, .footer li a:hover, {
+	/*pengaturan tombol ketika di-hover*/
+    background-color: #007BA9;
+}
+.container {
+	width:98%;
+	float:left;
+	clear:both;
+	padding: 15px;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sidebox {
+	font-family:lucida;
+	border : 1px black solid;
+	background-color:gray;
+	width:20%;
+	float:left;
+	padding:10px;
+}
+.box {
+	background-color:pink;
+	padding:10px;
+}
+.box ul{
+	list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+.box li a {
+    display: block; /*biar yg aktif jadi sekotak*/
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+	margin:5px;
+    text-decoration: none;
+	border:1px gray solid;
+}
+.box li a:hover, .active{
+	/*pengaturan tombol ketika di-hover*/
+    background-color: gray;
+}
+.button{
+	/*Pengaturan tombol*/
+	text-align:center;
+	color:white;
+	background-color:gray;
+	border: 1px gray solid;
+	border-radius:8px;
+	padding:3px 15px;
+}
+.button:hover{
+	/*Pengaturan tombol ketika di-hover*/
+	border:1pt solid #008CBA;
+	color:gray;
+	background-color:white;
+}
+.field{
+	margin:10px;
+}
+.left{
+	width: 25%;
+	float:left;
+	margin-right: 5px;
+}
+.right input {
+	width: 70%;
+}
+.content {
+	margin-left:10px;
+	padding:25px;
+	background-color: gray;
+	width:70%;
+	float:right;
+}
+.content h1 {
+	text-align:center;
+}
+.tabel, .tabel td, .tabel th{
+	margin:auto;
+	border: 1px black solid;
+}
+td {
+	height:50px;
+}
+.footer {
+	clear:both;
+}
+table, th, td{
+    border-collapse: collapse;
+	text-align:center;
+	padding:5px;
+}
